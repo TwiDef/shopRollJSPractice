@@ -12,5 +12,3 @@ window.addEventListener('click', (event) => {
         }
     }
 });
-
-// testing git commit on clone repo
