@@ -9,6 +9,5 @@ function toggleCardStatus() {
     } else {
         cartEmptyBadge.classList.remove('none');
         orderForm.classList.add('none');
-
     }
 }

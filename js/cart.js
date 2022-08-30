@@ -55,6 +55,7 @@ window.addEventListener('click', (event) => {
         card.querySelector('[data-counter]').innerText = '1';
         // Отображение статуса корзины
         toggleCardStatus();
+        calcCardPrice();
     }
 
 });
