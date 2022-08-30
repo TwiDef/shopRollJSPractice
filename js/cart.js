@@ -17,7 +17,6 @@ window.addEventListener('click', (event) => {
 
         // проверка если ли уже такой товар в корзине 
         const itemInCart = cartWrapper.querySelector(`[data-id="${productInfo.id}"]`);
-        console.log(itemInCart);
 
         // есть товар в корзине
         if (itemInCart) {
@@ -54,6 +53,8 @@ window.addEventListener('click', (event) => {
         }
         // сбрасываем счетчик добавлненного товара
         card.querySelector('[data-counter]').innerText = '1';
+        // Отображение статуса корзины
+        toggleCardStatus();
     }
 
 });
