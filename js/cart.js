@@ -54,8 +54,8 @@ window.addEventListener('click', (event) => {
         // сбрасываем счетчик добавлненного товара
         card.querySelector('[data-counter]').innerText = '1';
         // Отображение статуса корзины
-        toggleCardStatus();
-        calcCardPrice();
+        toggleCartStatus();
+        calcCartPriceAndDelivery();
     }
 
 });
